@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" w-full mx-auto p-4 bg-black">
+    <div
+      className=" w-full m-auto p-4 bg-gradient-to-b from-black
+    to-gray-800"
+    >
       <div className="max-h-[500px] relative">
         {/* {overlay} */}
         <div
@@ -19,7 +22,7 @@ const Hero = () => {
             className="px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl
           font-bold"
           >
-            <span className="text-orange-500">Meals</span>Delivered
+            <span className="text-orange-500">Meals </span>Delivered
           </h1>
         </div>
         <img

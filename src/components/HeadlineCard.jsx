@@ -2,7 +2,10 @@ import React from "react";
 
 const HeadlineCard = () => {
   return (
-    <div className="w-full mx-auto p-4 py-12 grid md:grid-cols-3 gap-6 bg-black">
+    <div
+      className="w-full mx-auto p-4 py-12 grid md:grid-cols-3 gap-6 bg-gradient-to-b
+    from-gray-800 to-black border-black"
+    >
       {/* {card} */}
       <div className="rounded-xl relative">
         {/* {overlay} */}

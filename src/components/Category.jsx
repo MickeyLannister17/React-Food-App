@@ -4,10 +4,10 @@ import { categories } from "./data/data";
 const Category = () => {
   return (
     <div
-      className="max-w-full px-4 py-12 bg-gradient-to-b from-gray-700
+      className="max-w-full px-4 mx-auto py-12 bg-gradient-to-b from-gray-700 via-black
     to-black"
     >
-      <h1 className="text-orange-600 font-bold text-4xl text-center">
+      <h1 className="text-white font-bold text-4xl text-center">
         Top Rated Menu Items
       </h1>
       {/* {category} */}
